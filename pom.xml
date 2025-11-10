@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.techangelx</groupId>
+    <artifactId>SWE-TRAINING</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>MinimumSubArrayHR</module>
+        <module>MinimumSubArrayHR/src/main/java/com/LinearSearch</module>
+        <module>Rest-API</module>
+        <module>Rest-API</module>
+        <module>ARRAY-BASICS</module>
+        <module>LINEAR_SEARCH</module>
+        <module>TWO_POINTER-TECHNIQUES</module>
+        <module>REST_APIs</module>
+        <module>SORTING_AND_SEARCHING</module>
+        <module>LINKED_LISTS_STACKS_QUEUES</module>
+        <module>LINKED_LISTS_STACKS_QUEUES/HASHING_HASHMAP_SET</module>
+        <module>STRING_MANIPULATION</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
